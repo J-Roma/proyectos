@@ -1,2 +1,5 @@
 # proyectos
-Proyectos Nariz Elecronica y Sistema de Monitoreo y Pago electronico
+*Proyectos Nariz Elecronica
+*Sistema de Monitoreo y Pago electronico
+
+Proyecto realizado con Arduino, Energia y PHP 
