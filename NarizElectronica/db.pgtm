@@ -1,0 +1,200 @@
+<Project version="17.10.0.1" localizationFileName="C:\Program Files (x86)\SQL Maestro Group\PHP Generator for MySQL Professional\lang.es.php" phpDriver="1" outputPath="C:\xampp\htdocs\nariz" copySystemFiles="true" outputFilesExtension="php" colorSchemeName="united">
+  <ConnectionOptions host="localhost" port="3306" login="root" password="" database="crycomco_nose" client_encoding="utf8">
+    <ssh_secure secure="false" port="22" authentication_mode="0"/>
+    <http_tunnel tunneling="false" url="">
+      <http_proxy_server use_proxy="false" port="8080"/>
+      <http_authentication/>
+    </http_tunnel>
+  </ConnectionOptions>
+  <ScriptConnectionOptions host="localhost" port="3306" login="root" password="" database="crycomco_nose" client_encoding="utf8">
+    <ssh_secure secure="false" port="22" authentication_mode="0"/>
+    <http_tunnel tunneling="false" url="">
+      <http_proxy_server use_proxy="false" port="8080"/>
+      <http_authentication/>
+    </http_tunnel>
+  </ScriptConnectionOptions>
+  <DataSources>
+    <DataSource name="nosesensor"/>
+  </DataSources>
+  <Presentation disableMagicQuotesRuntime="false" showEnvironmentVariables="false" showExecutedQueries="false" showPHPErrorsAndWarnings="false">
+    <Pages>
+      <Page type="table" tableName="nosesensor" numberByDataSource="0" fileName="nosesensor" caption="Nariz electronica" shortCaption="Nosesensor" addSeparator="false" horizontalFilterCondition="" recordsPerPage="20" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" deleteSelectedAbilityMode="3" contentEncoding="UTF-8" exportToExcelAvailable2="0" exportToWordAvailable2="0" exportToXmlAvailable2="0" exportToCsvAvailable2="0" exportToPdfAvailable2="4" printerFriendlyAvailable2="0" allowPrintSelectedRecords="false" simpleSearchAvailable="false" advancedSearchAvailable="false" useActionImages="true" showKeyColumnsImagesInGridHeader="false" recordsComparisionAvailable="false" columnFilterAvailable="false">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation fieldName="id" caption="Id" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="mq135" caption="Mq135" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="mq2" caption="Mq2" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="mq3" caption="Mq3" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text"/>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="mq5" caption="Mq5" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="mq7" caption="Mq7" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="mq8" caption="Mq8" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="fecha" caption="Fecha" showColumnFilter="false" selectedFilterOperators="2031871">
+            <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            <EditProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="id" visible="false"/>
+            <Column fieldName="mq135" caption="Mq135 - Humo"/>
+            <Column fieldName="mq2" caption="Mq2 - Gas Propano"/>
+            <Column fieldName="mq3" caption="Mq3 - Alcohol"/>
+            <Column fieldName="mq5" caption="Mq5 - LPG"/>
+            <Column fieldName="mq7" caption="Mq7 - CO"/>
+            <Column fieldName="mq8" caption="Mq8 - H2"/>
+            <Column fieldName="fecha"/>
+          </List>
+          <View>
+            <Column fieldName="id" visible="false"/>
+            <Column fieldName="mq135" caption="Mq135 - Humo"/>
+            <Column fieldName="mq2" caption="Mq2 - Gas Propano"/>
+            <Column fieldName="mq3" caption="Mq3 - Alcohol"/>
+            <Column fieldName="mq5" caption="Mq5 - LPG"/>
+            <Column fieldName="mq7" caption="Mq7 - CO"/>
+            <Column fieldName="mq8" caption="Mq8 - H2"/>
+            <Column fieldName="fecha"/>
+          </View>
+          <Edit>
+            <Column fieldName="id" visible="false"/>
+            <Column fieldName="mq135" caption="Mq135 - Humo"/>
+            <Column fieldName="mq2" caption="Mq2 - Gas Propano"/>
+            <Column fieldName="mq3" caption="Mq3 - Alcohol"/>
+            <Column fieldName="mq5" caption="Mq5 - LPG"/>
+            <Column fieldName="mq7" caption="Mq7 - CO"/>
+            <Column fieldName="mq8" caption="Mq8 - H2"/>
+            <Column fieldName="fecha"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="id" visible="false"/>
+            <Column fieldName="mq135" caption="Mq135 - Humo"/>
+            <Column fieldName="mq2" caption="Mq2 - Gas Propano"/>
+            <Column fieldName="mq3" caption="Mq3 - Alcohol"/>
+            <Column fieldName="mq5" caption="Mq5 - LPG"/>
+            <Column fieldName="mq7" caption="Mq7 - CO"/>
+            <Column fieldName="mq8" caption="Mq8 - H2"/>
+            <Column fieldName="fecha"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="id" visible="false"/>
+            <Column fieldName="mq135"/>
+            <Column fieldName="mq2"/>
+            <Column fieldName="mq3"/>
+            <Column fieldName="mq5"/>
+            <Column fieldName="mq7"/>
+            <Column fieldName="mq8"/>
+            <Column fieldName="fecha"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="id" visible="false"/>
+            <Column fieldName="mq135" caption="Mq135 - Humo"/>
+            <Column fieldName="mq2" caption="Mq2 - Gas Propano"/>
+            <Column fieldName="mq3" caption="Mq3 - Alcohol"/>
+            <Column fieldName="mq5" caption="Mq5 - LPG"/>
+            <Column fieldName="mq7" caption="Mq7 - CO"/>
+            <Column fieldName="mq8" caption="Mq8 - H2"/>
+            <Column fieldName="fecha"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="id" visible="false"/>
+            <Column fieldName="mq135" caption="Mq135 - Humo"/>
+            <Column fieldName="mq2" caption="Mq2 - Gas Propano"/>
+            <Column fieldName="mq3" caption="Mq3 - Alcohol"/>
+            <Column fieldName="mq5" caption="Mq5 - LPG"/>
+            <Column fieldName="mq7" caption="Mq7 - CO"/>
+            <Column fieldName="mq8" caption="Mq8 - H2"/>
+            <Column fieldName="fecha"/>
+          </Print>
+          <Export>
+            <Column fieldName="id" visible="false"/>
+            <Column fieldName="mq135" caption="Mq135 - Humo"/>
+            <Column fieldName="mq2" caption="Mq2 - Gas Propano"/>
+            <Column fieldName="mq3" caption="Mq3 - Alcohol"/>
+            <Column fieldName="mq5" caption="Mq5 - LPG"/>
+            <Column fieldName="mq7" caption="Mq7 - CO"/>
+            <Column fieldName="mq8" caption="Mq8 - H2"/>
+            <Column fieldName="fecha"/>
+          </Export>
+          <Compare>
+            <Column fieldName="id" visible="false"/>
+            <Column fieldName="mq135" caption="Mq135 - Humo"/>
+            <Column fieldName="mq2" caption="Mq2 - Gas Propano"/>
+            <Column fieldName="mq3" caption="Mq3 - Alcohol"/>
+            <Column fieldName="mq5" caption="Mq5 - LPG"/>
+            <Column fieldName="mq7" caption="Mq7 - CO"/>
+            <Column fieldName="mq8" caption="Mq8 - H2"/>
+            <Column fieldName="fecha"/>
+          </Compare>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+        <Charts>
+          <Chart name="ng" title="Nivel de Gas - [ PPM ]" type="3" width="11" domainColumnName="fecha" domainColumnLabel="fecha" domainColumnType="datetime">
+            <DataColumns>
+              <Column name="mq135" label="HUMO" type="float"/>
+              <Column name="mq2" label="GAS PROPANO" type="float"/>
+              <Column name="mq3" label="ALCOHOL" type="float"/>
+              <Column name="mq5" label="LPG" type="float"/>
+              <Column name="mq7" label="CO" type="float"/>
+              <Column name="mq8" label="H2" type="float"/>
+            </DataColumns>
+            <SelectStatement>
+SELECT mq135, mq2, mq3, mq5, mq7, mq8, fecha
+  FROM nosesensor
+  ORDER BY nosesensor.fecha asc            </SelectStatement>
+          </Chart>
+        </Charts>
+      </Page>
+    </Pages>
+    <UserAuthorization/>
+    <UserGrants enableGuestAccess="false">
+      <UserPageGrants/>
+    </UserGrants>
+    <Header/>
+    <Footer/>
+    <PHPOptions/>
+    <Groups>
+      <Group caption="No group"/>
+    </Groups>
+    <outgoingMailSettings mailer="0" fromEmail="" fromName=""/>
+  </Presentation>
+  <UserCSS/>
+  <UserJS/>
+  <ExcludedPaths/>
+  <DefaultPageProperties recordsPerPage="20" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" deleteSelectedAbilityMode="3" contentEncoding="UTF-8" exportToExcelAvailable2="0" exportToWordAvailable2="0" exportToXmlAvailable2="0" exportToCsvAvailable2="0" exportToPdfAvailable2="4" printerFriendlyAvailable2="0" allowPrintSelectedRecords="false" simpleSearchAvailable="false" advancedSearchAvailable="false" useActionImages="true" showKeyColumnsImagesInGridHeader="false" recordsComparisionAvailable="false" columnFilterAvailable="false"/>
+  <DefaultDataFormats numberAfterDecimal="0" DecimalSeparator="." ThousandSeparator="," DateTimeFormat="Y-m-d H:i:s" DateFormat="Y-m-d" firstDayOfWeek="0"/>
+</Project>
